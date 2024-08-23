@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  width: 100%;
+  height: 80vh;
+}
+
+.request-marker {
+  cursor: pointer;
+}
+
+.request-popup {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.request-popup .title {
+  font-weight: bold;
+}
+
+.request-popup .details {
+  padding: 10px;
+}
+
+.request-popup .details span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.request-popup .details .flight-data {
+  font-size: 10px;
+  color: #666;
+}
